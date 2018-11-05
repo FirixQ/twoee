@@ -1,8 +1,9 @@
 # Twoee
 Because Thue isn't bad enough
 
-## A note on backwards compatability
+## A note on backwards compatability and testing
 This is not 100% backwards compatible. We have "improved" it.
+Nor have we tested this any further than the included designAimsExample.t2 file.
 
 ## Design Aims (Implemented)
 

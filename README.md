@@ -4,11 +4,11 @@ Because Thue isn't bad enough
 ## A note on backwards compatability
 This is not 100% backwards compatible. We have "improved" it.
 
-## Design Aims (not implemented)
+## Design Aims (Implemented)
 
 ```twoee
 This is a comment (any text without an operator)
-Yes twoee has comments
+Yes Twoee has comments
 
 Replace a with b
 a::=b
@@ -22,8 +22,18 @@ a::=b~~~c
 Replace a with inputed text print c
 a::=:::~~~c
 
+Replace a with prompted input
+a::=~::Put your string here
+
 This will define the data string
 ;;=a
+```
+
+## Design Aims (Unimplemented)
+
+```twoee
+Proper implementation of literal and non literal operators
+i.e. not have such a hacky fix for making ~~~ run after :::
 ```
 
 ## Operator list

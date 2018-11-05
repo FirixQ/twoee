@@ -1,0 +1,16 @@
+This is the exmaple Twoee File.
+It should output:
+
+[whatever you typed first]
+You replaced d with e!
+[what ever you typed second]
+You replaced f with the string you typed!
+[What ever you typed]
+b[whatever you typed second]e[whatever you typed second][you final input]
+
+a::=b
+c::=:::
+d::=e~~~You replaced d with e!
+f::=:::~~~You replaced f with the string you typed!
+g::=~::Add your input?
+;;=acdfg

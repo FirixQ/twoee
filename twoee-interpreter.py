@@ -2,6 +2,8 @@ import sys
 
 #def operator(rhs,i):
 
+debug = False
+
 def inp(sd): #input, returns and inputed value to replace something in the data string    
     return input()
 
@@ -54,7 +56,8 @@ def twoee_interpret(path):
                 if next3 in opsList:
                     output += opsList[next3](sourceData[3:])
                     sourceData = sourceData[3:]
-                    break
+                    if next3 != ":::": 
+                        break
                 else:
                     output += sourceData[0]
                     sourceData = sourceData[1:]

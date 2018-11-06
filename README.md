@@ -61,3 +61,11 @@ i.e. not have such a hacky fix for making ~~~ run after :::
     This outputs the text following it (text is treated as a literal)
     ~~~
 ```
+## Some notes on execution
+This does **not** chose a random possible substitution and run it, instead it will always run the first possible substitution. Therefore the order they are defined in will set their precedence. 
+
+There are a few structural changes to how files are laid out as well compared to Thue. For example the data string is no longer defined as whatever comes after a line with only `::=` on it but as whatever follows the `;;=` operator. All operators are 3 characters long.
+
+# Road Map
+* Add file input and output
+* Have a single variable that is equal to the data string
